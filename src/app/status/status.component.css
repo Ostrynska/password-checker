@@ -1,0 +1,18 @@
+#status {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0 20px;
+}
+
+.status-section {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    #status {
+        margin: 35px 0 40px;
+    }
+}

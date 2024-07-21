@@ -1,0 +1,34 @@
+#checker-container {
+    width: 100%;
+    background-color: #fff;
+    padding: 3rem 2rem;
+    height: 340px;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #1E4178;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#checker {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    #checker-container {
+        width: 425px;
+    }
+    .message {
+        font-size: 14px;
+    }
+}

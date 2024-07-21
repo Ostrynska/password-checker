@@ -1,0 +1,24 @@
+input{
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem;
+    font-size: 14px;
+    color: #1E4178;
+    border: 1px solid #1E4178;
+    border-radius: 5px;
+    outline: none;
+}
+input::placeholder{
+    font-family: "Poppins", sans-serif;
+}
+
+input:hover, input:focus{
+    border: 1.5px solid #1E4178;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+    input {
+        max-width: 800px;
+    }
+}
