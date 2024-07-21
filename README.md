@@ -1,27 +1,39 @@
-# PasswordChecker
+# Password Strength Checker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+This project is an Angular application to test the strength of a password in real-time. The application provides visual feedback on the strength of the entered password based on specific criteria.
+![image](https://github.com/user-attachments/assets/a727ef94-1839-4835-b84c-d5faa149b74b)
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Password input field
+- Real-time password strength evaluation
+- Three visual indicators showing the strength of the password
+- Strength criteria:
+  - Only letters/digits/symbols: easy (first section red, others gray)
+  - Combination of letters-symbols/letters-digits/digits-symbols: medium (first two sections yellow, last one gray)
+  - Has letters, symbols, and numbers: strong (all sections green)
+  - Field is empty: all sections gray
+  - Password length less than 8 characters: all sections red
 
-## Code scaffolding
+## Setup and Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
 
-## Build
+- Node.js (>=12.x)
+- Angular CLI (>=12.x)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
 
-## Running unit tests
+1. Clone the repository:
+      ```bash
+   git clone https://github.com/your-username/password-strength-checker.git
+2. Navigate to the project directory:
+     ```bash
+     cd password-strength-checker
+3. Install the dependencies:
+    ```bash
+    npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Running the Application
+To run the application locally, use the following command: ng serve.
+The application will be available at http://localhost:4200.
